@@ -1,0 +1,27 @@
+import java.util.Scanner;
+public class RecursiveFuncPalindromeStr{
+	public static void main(String [] arg){
+		Scanner sc=new Scanner(System.in);
+		
+		System.out.println("Enter a string: ");
+		String str=sc.nextLine();
+		
+		System.out.println(str+ " is it palindrome ?: "+isPalindrome(str));
+		
+		
+	}
+	
+	public static boolean isPalindrome(String str){
+		if(str.length() <=1){
+			return true;	
+		}
+		
+		if(str.charAt(0) != str.charAt(str.length()-1)){
+			return false;
+		}
+		
+		return isPalindrome(str.substring(1,str.length()-1));
+	}
+
+
+}

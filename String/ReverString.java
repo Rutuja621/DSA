@@ -18,9 +18,9 @@ public class ReverString{
 		
 		String reversed="";
 		
-		 for (int i = input.length() - 1; i >= 0; i--) {
+		 for (int i = st.length() - 1; i >= 0; i--) {
             // Pick each character and add it to our new string
-            reversed = reversed + input.charAt(i);
+            reversed = reversed + st.charAt(i);
         }
 
         System.out.println("Reversed string: " + reversed);
