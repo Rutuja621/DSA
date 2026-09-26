@@ -5,6 +5,8 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/Class_and_Object" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Constructor" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Inhertance" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Polymorhism" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

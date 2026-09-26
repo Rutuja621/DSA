@@ -3,7 +3,7 @@
 public class CheckOnlyDigitsInString {
 
     public static void main(String[] args) {
-        String str="123a45";
+        String str="123n45";
 
         boolean isDigit=true;
 
