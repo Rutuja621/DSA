@@ -1,0 +1,387 @@
+Q1.Write a Java program to store 5 integer elements in a Vector and display all elements.
+Description
+Create a Vector of Integer type.
+Accept 5 numbers from user.
+Store them using add() method.
+Display elements using loop.
+Input
+Enter 5 numbers:
+10
+20
+30
+40
+50
+Output
+Vector elements are:
+10
+20
+30
+40
+50
+
+
+Q2. Write a Java program to store N elements in a Vector and print the total number of elements.
+Description
+Create Vector.
+Take number of elements from user.
+Store values.
+Use size() method to find total elements.
+Input
+Enter number of elements:
+4
+
+Enter elements:
+5
+15
+25
+35
+Output
+Total elements in vector = 4
+
+
+Q3. Write a Java program to search a given number in a Vector.
+Description
+Store integer values in Vector.
+Accept a number to search.
+Check using loop or contains() method.
+Print found or not found.
+Input
+Enter number of elements:
+5
+
+Enter elements:
+10
+22
+35
+48
+50
+
+Enter number to search:
+35
+Output
+Element found in vector
+
+
+Q4. Write a Java program to remove a specific element from a Vector.
+Description
+Store elements in Vector.
+Take element to remove.
+Use remove() method.
+Display updated Vector.
+Input
+Enter elements:
+10
+20
+30
+40
+
+Enter element to remove:
+30
+Output
+Updated Vector:
+10
+20
+40
+
+
+Q5. Write a Java program to find the maximum element in a Vector.
+Description
+Store integer values.
+Assume first element as max.
+Compare with remaining elements.
+Print maximum value.
+Input
+Enter elements:
+12
+45
+7
+89
+34
+Output
+Maximum element is 89
+
+
+Q6. Write a Java program to store integer elements in a Vector and display the first and last element.
+Description
+Create a Vector.
+Store elements using add() method.
+Use firstElement() and lastElement() methods.
+Print both values.
+Input
+Enter number of elements:
+5
+
+Enter elements:
+11
+22
+33
+44
+55
+Output
+First element = 11
+Last element = 55
+
+
+Q7. Write a Java program to update an element at a specific position in a Vector.
+Description
+Store elements in Vector.
+Ask user for position.
+Accept new value.
+Update using set(index,value) method.
+Display updated Vector.
+Input
+Enter elements:
+10
+20
+30
+40
+
+Enter position to update:
+2
+
+Enter new value:
+99
+Output
+Updated Vector:
+10
+20
+99
+40
+
+Q8. Write a Java program to count how many even numbers are present in a Vector.
+Description
+Store integer values.
+Traverse using loop.
+Check number % 2 == 0.
+Count even numbers.
+Input
+Enter elements:
+10
+15
+20
+25
+30
+Output
+Total even numbers = 3
+
+
+Q9. Write a Java program to copy all elements from one Vector into another Vector.
+Description
+Create two Vectors.
+Store elements in first Vector.
+Copy using addAll() method.
+Display second Vector.
+Input
+Enter elements:
+5
+10
+15
+20
+Output
+Second Vector elements:
+5
+10
+15
+20
+
+Q10. Write a Java program to check whether a Vector is empty or not.
+Description
+Create a Vector.
+Check using isEmpty() method.
+Print appropriate message.
+Input
+Enter number of elements:
+0
+Output
+Vector is empty
+
+	
+Q11. Create a POJO class Student with fields:
+id
+name
+marks
+Store 5 students in a Vector and display students who scored more than 60 marks.
+Description
+Program should:
+Create Student class with getters/setters
+Store objects in Vector
+Apply condition marks > 60
+Display qualified students
+Input
+101 Rahul 55 
+102 Amit 78 
+103 Neha 88 
+104 Pooja 45 
+105 Kiran 67
+Output
+Students scoring above 60:
+
+102 Amit 78
+103 Neha 88
+105 Kiran 67
+
+
+Q12.Create an Employee POJO class with:
+id
+name
+salary
+Store employees in Vector and display employees having salary greater than 25000.
+Description
+Logical operation:
+if(salary > 25000)
+Input
+1 Raj 20000
+2 Simran 30000
+3 Ajay 27000
+4 Ramesh 18000
+Output
+Employees with salary above 25000:
+
+2 Simran 30000
+3 Ajay 27000
+
+
+Q13.Create Product class:
+productId
+productName
+price
+Store products in Vector and display products with price less than 500.
+Description
+Check condition:
+price < 500
+Input
+P1 Mouse 450
+P2 Keyboard 700
+P3 PenDrive 350
+P4 Monitor 9000
+Output
+Products below 500:
+
+P1 Mouse 450
+P3 PenDrive 350
+
+
+Q14.Create Player class:
+playerId
+playerName
+runs
+Store players in Vector and display players who scored even runs.
+Description
+Logical condition:
+runs % 2 == 0
+Input
+1 Virat 75
+2 Rohit 80
+3 Gill 66
+4 KL 59
+Output
+Players with even runs:
+
+2 Rohit 80
+3 Gill 66
+
+
+Q15.Create Book class:
+bookId
+bookName
+price
+Store books in Vector and calculate total price of all books.
+Description
+Logical operation:
+total = total + price
+Input
+1 Java 500
+2 SQL 350
+3 Python 400
+Output
+Total Book Price = 1250
+Q16.Create Customer class:
+id
+name
+age
+Store customers in Vector and display customers eligible for voting (age ≥18).
+Description
+Logical condition:
+age >= 18
+Input
+1 Ravi 17
+2 Meena 22
+3 Arjun 19
+4 Tina 15
+Output
+Eligible customers:
+
+2 Meena 22
+3 Arjun 19
+
+
+Q17.Create Mobile class:
+id
+brand
+quantity
+Store mobiles in Vector and display mobiles with stock less than 10.
+Description
+Condition:
+quantity < 10
+Input
+1 Samsung 15
+2 Vivo 8
+3 Oppo 5
+4 Apple 20
+Output
+Low Stock Mobiles:
+
+2 Vivo 8
+3 Oppo 5
+Q18.Create Movie class:
+movieId
+movieName
+rating
+Store movies in Vector and display movies having rating above 4.
+Description
+Condition:
+rating > 4
+Input
+1 Pushpa 4.5
+2 Leo 3.8
+3 KGF 4.7
+4 Jawan 4.2
+Output
+Top Rated Movies:
+
+Pushpa
+KGF
+Jawan
+Q19.Create Order class:
+orderId
+customerName
+amount
+Store orders in Vector and find highest order amount.
+Description
+Logic:
+if(amount > max)
+max = amount;
+Input
+1 Ram 2500
+2 Sita 4200
+3 Mohan 3100
+Output
+Highest Order Amount = 4200
+Q20.Create Laptop class:
+id
+brand
+price
+Store laptops in Vector and display laptops of brand Dell.
+Description
+Logical condition:
+brand.equals("Dell")
+Input
+1 Dell 55000
+2 HP 60000
+3 Dell 72000
+4 Lenovo 50000
+Output
+Dell Laptops:
+
+1 Dell 55000
+3 Dell 72000

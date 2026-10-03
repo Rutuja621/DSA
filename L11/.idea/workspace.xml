@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3e420ada-a70b-4cc3-bf46-6c7d8eafe3d7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Java8/src/FunctionalInterfaces/FunctionalInterfacesDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java8/src/FunctionalInterfaces/PredicatesInJava.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java8/src/LambdaExpression/CheckEvenOdd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java8/src/LambdaExpression/LambdaWithComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java8/src/LambdaExpression/LambdaWithForEach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java8/src/LambdaExpression/LambdaWithMultipleStmt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java8/src/LambdaExpression/LambdaWithOneParameter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java8/src/LambdaExpression/SquareOfNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java8/src/LambdaExpression/ThreadUsingLambda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java8/src/LambdaExpression/TwoParameterLambdaDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java8/src/StaticOrDefaultMethods/DeafultMethodDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java8/src/StaticOrDefaultMethods/StaticMethodDemo.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Rutuja621&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Rutuja621/DSA.git&quot;,
+    &quot;accountId&quot;: &quot;5e81f164-dc36-4a42-a685-a48eb52ec83d&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3I0KWAO1BSZvNlroF8vapVPmtmp" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Program Files/Java/jdk-24/bin/DSA/L11"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3e420ada-a70b-4cc3-bf46-6c7d8eafe3d7" name="Changes" comment="" />
+      <created>1786896075502</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1786896075502</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
