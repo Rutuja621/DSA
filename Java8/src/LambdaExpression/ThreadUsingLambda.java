@@ -3,7 +3,7 @@ package LambdaExpression;
 public class ThreadUsingLambda {
     public static void main(String[] args) {
         //Runnale :- functional interface with lambda expression
-
+   //no need to add or extend another class
         Runnable rn=() ->{
             //this is thread body
 
@@ -19,7 +19,7 @@ public class ThreadUsingLambda {
             }
 
         };
-       //call run to execute thread
+
         Thread thread=new Thread(rn,"MyThread");
         thread.start();
     }

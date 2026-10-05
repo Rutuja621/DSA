@@ -15,7 +15,7 @@ interface ChildDemo{
 }
 public class DeafultMethodDemo implements Demo,ChildDemo {
     public static void main(String[] args) {
-        //here both interfaces have same method so the will confuse which one execute
+        //here both interfaces have same method so the compiler will confuse which one execute
         //here it will give an error
         DeafultMethodDemo dm=new DeafultMethodDemo();
         dm.sayHello();
